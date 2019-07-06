@@ -19,7 +19,7 @@ namespace Vacancies.Controllers
         {
             if (vacancies.Count == 0)
                 vacancies = _databaseContext.Vacancies.ToList();
-            return View(vacancies);
+            return View("Home", vacancies);
         }
     }
 }
