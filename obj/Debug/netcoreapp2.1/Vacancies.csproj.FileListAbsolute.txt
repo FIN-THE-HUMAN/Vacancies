@@ -26,3 +26,4 @@ C:\Users\User\source\repos\Vacancies\Vacancies\obj\Debug\netcoreapp2.1\Vacancies
 C:\Users\User\source\repos\Vacancies\Vacancies\obj\Debug\netcoreapp2.1\Vacancies.dll
 C:\Users\User\source\repos\Vacancies\Vacancies\obj\Debug\netcoreapp2.1\Vacancies.pdb
 C:\Users\User\source\repos\Vacancies\Vacancies\obj\Debug\netcoreapp2.1\Vacancies.csproj.CopyComplete
+C:\Users\User\source\repos\Vacancies\Vacancies\obj\Debug\netcoreapp2.1\Razor\Views\Home\Home.g.cshtml.cs
