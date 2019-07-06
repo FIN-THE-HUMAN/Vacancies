@@ -1,43 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Vacancies.Models;
+using Vacancies.DAL;
+using Vacancies.DAL.Models;
 
 namespace Vacancies.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly DatabaseContext _databaseContext;
+
+        public HomeController(DatabaseContext databaseContext)
         {
-            return View();
+            _databaseContext = databaseContext;
         }
 
-        public IActionResult About()
+        public IActionResult Index(List<Vacancy> vacancies)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (vacancies.Count == 0)
+                vacancies = _databaseContext.Vacancies.ToList();
+            return View(vacancies);
         }
     }
 }
