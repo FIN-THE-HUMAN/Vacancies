@@ -13420,11 +13420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Vacancies-master\\Vacancies\\Vacancies.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Новая папка\\Vacancies-master\\Vacancies\\Vacancies.csproj",
       "projectName": "Vacancies",
-      "projectPath": "C:\\Users\\User\\Desktop\\Vacancies-master\\Vacancies\\Vacancies.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Новая папка\\Vacancies-master\\Vacancies\\Vacancies.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Vacancies-master\\Vacancies\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Новая папка\\Vacancies-master\\Vacancies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
