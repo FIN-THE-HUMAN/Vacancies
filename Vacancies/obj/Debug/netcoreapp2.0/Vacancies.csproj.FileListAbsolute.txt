@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Vacancies-master\Vacancies\bin\Debug\netcoreapp2.0\Vacancies.deps.json
+C:\Users\User\Desktop\Vacancies-master\Vacancies\bin\Debug\netcoreapp2.0\Vacancies.runtimeconfig.json
+C:\Users\User\Desktop\Vacancies-master\Vacancies\bin\Debug\netcoreapp2.0\Vacancies.runtimeconfig.dev.json
+C:\Users\User\Desktop\Vacancies-master\Vacancies\bin\Debug\netcoreapp2.0\Vacancies.dll
+C:\Users\User\Desktop\Vacancies-master\Vacancies\bin\Debug\netcoreapp2.0\Vacancies.pdb
+C:\Users\User\Desktop\Vacancies-master\Vacancies\obj\Debug\netcoreapp2.0\Vacancies.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Vacancies-master\Vacancies\obj\Debug\netcoreapp2.0\Vacancies.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Vacancies-master\Vacancies\obj\Debug\netcoreapp2.0\Vacancies.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Vacancies-master\Vacancies\obj\Debug\netcoreapp2.0\Vacancies.AssemblyInfo.cs
+C:\Users\User\Desktop\Vacancies-master\Vacancies\obj\Debug\netcoreapp2.0\Vacancies.dll
+C:\Users\User\Desktop\Vacancies-master\Vacancies\obj\Debug\netcoreapp2.0\Vacancies.pdb

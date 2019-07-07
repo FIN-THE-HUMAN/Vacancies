@@ -1,0 +1,12 @@
+@using Vacancies.DAL.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Vacancy>
+<link href="~/css/Styles.css" rel="stylesheet">
+
+<div>
+    @foreach (var vacancy in Model)
+    {
+        @Html.Partial("~/Views/Vacancies/Vacancy.cshtml", vacancy)
+        
+    }
+</div>

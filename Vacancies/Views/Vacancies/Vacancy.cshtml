@@ -1,0 +1,12 @@
+@using Vacancies.DAL.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Vacancy
+
+<link rel="stylesheet" href="~/css/VacancyStyles.css"/>
+<div class="wrap">
+    <div class="title">Вакансия: <strong>@Model.Title</strong></div>
+    <div class="company">Компания: @Model.Company</div>
+    <div class="description">Описание: @Model.Description</div>
+    <div class="requirements">Требования: @Model.Requirements</div>
+    <div class="salary">Зарплата: <strong>@Model.Salary</strong></div>
+</div>

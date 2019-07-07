@@ -1,0 +1,9 @@
+.wrap{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.wrap div{
+    margin: 5px;
+}

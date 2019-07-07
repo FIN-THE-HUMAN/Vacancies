@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.button{
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width: 150px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.button a{
+    color: inherit;
+    text-decoration: none;
+}
